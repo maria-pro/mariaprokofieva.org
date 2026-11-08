@@ -1,0 +1,78 @@
+---
+layout: base.njk
+title: About
+bodyClass: about
+permalink: /about/
+description: "About Maria Prokofieva, Associate Professor, AI and finance, and Fellow of CPA Australia: biography, roles, education, press bios and contact."
+---
+<section class="wrap page-head about-head">
+  <div class="portrait" role="img" aria-label="Portrait of Maria Prokofieva (placeholder)">
+    {#- TODO(Maria): replace with /assets/maria-prokofieva.jpg, a 4:5 portrait, about 800×1000 px -#}
+    <span aria-hidden="true">MP</span>
+  </div>
+  <div>
+    <h1>About</h1>
+    <p class="lede">{{ site.descriptor }}</p>
+  </div>
+</section>
+
+<section class="wrap prose" aria-label="Biography">
+  <p class="bio">{{ site.bio }}</p>
+</section>
+
+<section class="wrap facts">
+  <div class="facts__col">
+    <h2>Roles</h2>
+    <ul class="plain">
+      {%- for r in site.roles %}<li>{{ r }}</li>{% endfor %}
+    </ul>
+    <h2>Service</h2>
+    <ul class="plain">
+      {%- for r in site.service %}<li>{{ r }}</li>{% endfor %}
+    </ul>
+  </div>
+  <div class="facts__col">
+    <h2>Education</h2>
+    <ul class="plain">
+      {%- for e in site.education %}<li>{{ e }}</li>{% endfor %}
+    </ul>
+    <h2>Identifiers</h2>
+    <ul class="plain">
+      <li>ORCID <a href="{{ site.links.orcid }}" rel="me">{{ site.orcid }}</a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="wrap contact" id="contact" aria-labelledby="contact-h">
+  <h2 id="contact-h">Contact</h2>
+  <dl class="contact__list">
+    <div>
+      <dt>Academic</dt>
+      <dd><a href="{{ ('mailto:' + site.email.academic) | entities | safe }}">{{ site.email.academic | entities | safe }}</a></dd>
+    </div>
+    <div>
+      <dt>Industry and media</dt>
+      <dd><a href="{{ ('mailto:' + site.email.industry) | entities | safe }}">{{ site.email.industry | entities | safe }}</a></dd>
+    </div>
+  </dl>
+  <ul class="inline-links">
+    <li><a href="{{ site.links.linkedin }}" rel="me">LinkedIn</a></li>
+    <li><a href="{{ site.links.github }}" rel="me">GitHub</a></li>
+    <li><a href="{{ site.links.vu }}" rel="me">University profile</a></li>
+  </ul>
+</section>
+
+<section class="wrap press" aria-labelledby="press-h">
+  <h2 id="press-h">For organisers and press</h2>
+  <p>Use either bio as written. Please pair the name with “Associate Professor” and “AI and finance”.</p>
+  <div class="press__bios">
+    <figure class="bio-card">
+      <figcaption>Short bio</figcaption>
+      <blockquote><p>{{ site.name }}, Associate Professor and FCPA, {{ site.spineThird | lcfirst }}</p></blockquote>
+    </figure>
+    <figure class="bio-card">
+      <figcaption>Long bio</figcaption>
+      <blockquote><p>{{ site.bio }}</p></blockquote>
+    </figure>
+  </div>
+</section>

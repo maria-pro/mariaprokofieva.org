@@ -1,0 +1,1200 @@
+[
+  {
+    "id": "gamers-dataset-w1-3",
+    "title": "Gamers Wave 1–3: questionnaire and Fitbit dataset, rebuilt from the raw survey exports (de-identified, adults)",
+    "year": 2026,
+    "date": "2026-11-07",
+    "type": "dataset",
+    "venue": "Zenodo",
+    "authors": "Prokofieva et al.",
+    "lead": true,
+    "doi": "10.5281/zenodo.24040710",
+    "url": null,
+    "domains": [
+      "behaviour",
+      "proof"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "specialist-verifiers-code",
+    "title": "Specialist verifiers for agent governance: pilot code (certified evaluation and policy-area specialists on τ²-bench)",
+    "year": 2026,
+    "date": "2026-11-06",
+    "type": "software",
+    "venue": "Zenodo",
+    "authors": "Prokofieva",
+    "lead": true,
+    "doi": "10.5281/zenodo.23999276",
+    "url": "https://zenodo.org/doi/10.5281/zenodo.23999276",
+    "domains": [
+      "contract",
+      "proof"
+    ],
+    "featured": true,
+    "summary": "Code to measure how much of an AI agent's work can be certified safe to skip human review, testing small policy-area specialist verifiers against one generalist LLM judge on τ²-bench."
+  },
+  {
+    "id": "specialist-verifiers-results",
+    "title": "Specialist verifiers for agent governance: pilot results (judge and specialist scores and certification on τ²-bench)",
+    "year": 2026,
+    "date": "2026-11-06",
+    "type": "dataset",
+    "venue": "Zenodo",
+    "authors": "Prokofieva",
+    "lead": true,
+    "doi": "10.5281/zenodo.23999280",
+    "url": "https://zenodo.org/doi/10.5281/zenodo.23999280",
+    "domains": [
+      "contract",
+      "proof"
+    ],
+    "featured": true,
+    "summary": "Judge and specialist scores on all 4,448 τ²-bench trajectories, with certification summaries and a checksummed results register."
+  },
+  {
+    "id": "managerial-ai-optimism-dataset",
+    "title": "Managerial AI Optimism in US Technology Earnings Calls: An Educational Dataset",
+    "year": 2026,
+    "date": "2026-10-30",
+    "type": "dataset",
+    "venue": "Zenodo",
+    "authors": "Prokofieva",
+    "lead": true,
+    "doi": "10.5281/zenodo.23795230",
+    "url": "https://zenodo.org/doi/10.5281/zenodo.23795230",
+    "domains": [
+      "control",
+      "proof",
+      "teaching"
+    ],
+    "featured": true,
+    "summary": "Measures of managerial AI optimism and six AI-claim dimensions from the earnings calls of 20 US technology companies, with a human-coded benchmark of 456 passages."
+  },
+  {
+    "id": "prototype-cohort-harmoniser",
+    "title": "Prototype Cohort Harmoniser",
+    "year": 2026,
+    "date": "2026-10-30",
+    "type": "software",
+    "venue": "Zenodo",
+    "authors": "Stavropoulos, Prokofieva et al.",
+    "lead": false,
+    "doi": "10.5281/zenodo.23807408",
+    "url": "https://zenodo.org/doi/10.5281/zenodo.23807408",
+    "domains": [
+      "proof"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "two-clocks-atlas",
+    "title": "Two-Clocks Atlas (prototype): an interactive simulated-data demonstration artifact",
+    "year": 2026,
+    "date": "2026-10-27",
+    "type": "software",
+    "venue": "Zenodo",
+    "authors": "Stavropoulos, Prokofieva",
+    "lead": false,
+    "doi": "10.5281/zenodo.23681545",
+    "url": "https://zenodo.org/doi/10.5281/zenodo.23681545",
+    "domains": [
+      "proof"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "finagent",
+    "title": "FinAgent: multi-agent equity research on a small NVIDIA Nemotron model",
+    "year": 2026,
+    "date": "2026-10-22",
+    "type": "software",
+    "venue": "Zenodo",
+    "authors": "Prokofieva",
+    "lead": true,
+    "doi": "10.5281/zenodo.23578667",
+    "url": "https://github.com/maria-pro/finagent",
+    "domains": [
+      "own",
+      "proof",
+      "teaching"
+    ],
+    "featured": true,
+    "summary": "Agentic AI that runs on a CPU: LangGraph agents research public companies from SEC filings, a fact-checker traces every number to its source, and a two-hour hands-on lab comes with it."
+  },
+  {
+    "id": "online-safety-digital-duty-of-care-submission",
+    "title": "Submission on the Exposure Draft of the Online Safety Amendment (Digital Duty of Care) Bill 2026",
+    "year": 2026,
+    "date": "2026-09-22",
+    "type": "submission",
+    "venue": "Zenodo",
+    "authors": "Stavropoulos, Brown, Zarate, Prokofieva",
+    "lead": false,
+    "doi": "10.5281/zenodo.22886040",
+    "url": "https://zenodo.org/doi/10.5281/zenodo.22886040",
+    "domains": [
+      "behaviour"
+    ],
+    "featured": false,
+    "summary": "Evidence-based safeguards for algorithmic feeds and young people, lodged on the exposure draft of the Digital Duty of Care Bill."
+  },
+  {
+    "id": "cohort-harmonise",
+    "title": "Cohort-harmonise: dictionary-first harmonisation and claim auditing across youth-development cohorts",
+    "year": 2026,
+    "date": "2026-09-11",
+    "type": "software",
+    "venue": "Zenodo",
+    "authors": "Prokofieva et al.",
+    "lead": true,
+    "doi": "10.5281/zenodo.22699958",
+    "url": "https://github.com/maria-pro/cohort-harmonise",
+    "domains": [
+      "proof"
+    ],
+    "featured": true,
+    "summary": "Aligns constructs across five longitudinal youth cohorts from variable-level metadata only, with no access to participant data."
+  },
+  {
+    "id": "lsac-variable-explorer",
+    "title": "LSAC Variable Explorer",
+    "year": 2026,
+    "date": "2026-09-11",
+    "type": "software",
+    "venue": "Zenodo",
+    "authors": "Conkey-Morrison, Prokofieva et al.",
+    "lead": false,
+    "doi": "10.5281/zenodo.22707558",
+    "url": "https://zenodo.org/doi/10.5281/zenodo.22707558",
+    "domains": [
+      "proof"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "lsac-variable-index",
+    "title": "LSAC variable index (Release 10.0), reshaped for the LSAC Variable Explorer",
+    "year": 2026,
+    "date": "2026-09-11",
+    "type": "dataset",
+    "venue": "Zenodo",
+    "authors": "Conkey-Morrison, Prokofieva et al.",
+    "lead": false,
+    "doi": "10.5281/zenodo.22707556",
+    "url": "https://zenodo.org/doi/10.5281/zenodo.22707556",
+    "domains": [
+      "proof"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "digital-traces-behavioural-addictions",
+    "title": "Machine learning of digital traces to detect risk for behavioural addictions online",
+    "year": 2026,
+    "date": "2026-08-13",
+    "type": "article",
+    "venue": "Nature Reviews Psychology",
+    "authors": "Burleigh, Hao, Schivinski, Prokofieva et al.",
+    "lead": false,
+    "doi": "10.1038/s44159-026-00604-8",
+    "url": "http://dx.doi.org/10.1038/s44159-026-00604-8",
+    "domains": [
+      "behaviour"
+    ],
+    "featured": true,
+    "summary": "How machine learning on digital traces can flag the risk of behavioural addiction online."
+  },
+  {
+    "id": "cma-agentic-platform",
+    "title": "The CMA Agentic Platform: Autonomous Asset Verification and Algorithmic Auditor Governance",
+    "year": 2026,
+    "date": "2026-06-17",
+    "type": "article",
+    "venue": "FinTech",
+    "authors": "Alhazmi, Islam, Prokofieva",
+    "lead": false,
+    "doi": "10.3390/fintech5020055",
+    "url": "http://dx.doi.org/10.3390/fintech5020055",
+    "domains": [
+      "contract"
+    ],
+    "featured": true,
+    "summary": "A design-science proposal for agentic AI that verifies assets autonomously and puts algorithmic auditors under governance."
+  },
+  {
+    "id": "youtube-sleep-health",
+    "title": "Network Influence vs. Credibility in YouTube Sleep‐Health Communication",
+    "year": 2026,
+    "date": "2026-06",
+    "type": "article",
+    "venue": "Public Health Challenges",
+    "authors": "Ghahramani, Prokofieva et al.",
+    "lead": false,
+    "doi": "10.1002/puh2.70251",
+    "url": "http://dx.doi.org/10.1002/puh2.70251",
+    "domains": [],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "drones-ai-external-audit",
+    "title": "The Impact of AI-Integrated Drone Technology and Big Data on External Auditing Performance, Sustainability, and Financial Reporting Quality on the Emerging Market",
+    "year": 2025,
+    "date": "2025-09-26",
+    "type": "article",
+    "venue": "Accounting and Auditing",
+    "authors": "Alhazmi, Islam, Prokofieva",
+    "lead": false,
+    "doi": "10.3390/accountaudit1030008",
+    "url": "https://doi.org/10.3390/accountaudit1030008",
+    "domains": [
+      "contract"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "ai-adoption-financial-reporting-saudi",
+    "title": "The Impact of Artificial Intelligence Adoption on the Quality of Financial Reports on the Saudi Stock Exchange",
+    "year": 2025,
+    "date": "2025-02-04",
+    "type": "article",
+    "venue": "International Journal of Financial Studies",
+    "authors": "Alhazmi, Islam, Prokofieva",
+    "lead": false,
+    "doi": "10.3390/ijfs13010021",
+    "url": "https://doi.org/10.3390/ijfs13010021",
+    "domains": [
+      "control"
+    ],
+    "featured": true,
+    "summary": "How AI adoption in audit practice affects the quality of financial reporting on the Saudi Stock Exchange."
+  },
+  {
+    "id": "health-campaign-hashtags",
+    "title": "Health promotion campaigns using social media: association rules mining and co-occurrence network analysis of Twitter hashtags",
+    "year": 2025,
+    "date": "2025-01-07",
+    "type": "article",
+    "venue": "BMC Public Health",
+    "authors": "Ghahramani, Prokofieva et al.",
+    "lead": false,
+    "doi": "10.1186/s12889-024-21255-5",
+    "url": "http://dx.doi.org/10.1186/s12889-024-21255-5",
+    "domains": [],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "fair-value-audit-costs-jordan",
+    "title": "External auditing costs of fair value model amongst Jordanian financial institutions: The moderating effect of ownership structure",
+    "year": 2025,
+    "date": "2025",
+    "type": "article",
+    "venue": "Uncertain Supply Chain Management",
+    "authors": "Alharasis, Prokofieva et al.",
+    "lead": false,
+    "doi": "10.5267/j.uscm.2024.8.006",
+    "url": null,
+    "domains": [
+      "contract"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "heart-month-tweets",
+    "title": "Impact of Social Media on Heart Health-Related Behaviors in Health Promotion Interventions: Sentiment Analysis of Tweets Linked to the American Heart Month Campaigns",
+    "year": 2025,
+    "date": "2025",
+    "type": "chapter",
+    "venue": "Lecture Notes in Computer Science",
+    "authors": "Ghahramani, Prokofieva et al.",
+    "lead": false,
+    "doi": "10.1007/978-981-96-5597-7_29",
+    "url": "http://dx.doi.org/10.1007/978-981-96-5597-7_29",
+    "domains": [],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "management-accounting-analytics-education",
+    "title": "Management accounting and data analytics: Technology acceptance from the educational perspective",
+    "year": 2025,
+    "date": "2025",
+    "type": "article",
+    "venue": "Accounting Education",
+    "authors": "Vysotskaya, Prokofieva",
+    "lead": false,
+    "doi": "10.1080/09639284.2024.2338140",
+    "url": null,
+    "domains": [
+      "teaching"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "unequal-from-the-start",
+    "title": "Unequal from the Start: The Achievement Gap in the Early Years",
+    "year": 2025,
+    "date": "2025",
+    "type": "report",
+    "venue": null,
+    "authors": null,
+    "lead": false,
+    "doi": null,
+    "url": "https://vuir.vu.edu.au/id/eprint/49302",
+    "domains": [],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "gaming-disorder-avatar-corrigendum",
+    "title": "Corrigendum to: Deep learning(s) in gaming disorder through the user-avatar bond: A longitudinal study using machine learning",
+    "year": 2024,
+    "date": "2024-12-30",
+    "type": "article",
+    "venue": "Journal of Behavioral Addictions",
+    "authors": "Stavropoulos, Zarate, Prokofieva et al.",
+    "lead": false,
+    "doi": "10.1556/2006.2024.30000",
+    "url": "https://doi.org/10.1556/2006.2024.30000",
+    "domains": [
+      "behaviour"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "gaming-disorder-avatar-clarity",
+    "title": "Machine Learning(s) in gaming disorder through the user-avatar bond: A step towards conceptual and methodological clarity",
+    "year": 2024,
+    "date": "2024-12-30",
+    "type": "article",
+    "venue": "Journal of Behavioral Addictions",
+    "authors": "Stavropoulos, Prokofieva et al.",
+    "lead": false,
+    "doi": "10.1556/2006.2024.00063",
+    "url": "https://doi.org/10.1556/2006.2024.00063",
+    "domains": [
+      "behaviour"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "proteus-effect-avatar-profiles",
+    "title": "Proteus effect avatar profiles: Associations with disordered gaming and activity levels",
+    "year": 2024,
+    "date": "2024-12",
+    "type": "article",
+    "venue": "Addictive Behaviors Reports",
+    "authors": "Hein, Burleigh, Gorman, Prokofieva et al.",
+    "lead": false,
+    "doi": "10.1016/j.abrep.2024.100562",
+    "url": "https://doi.org/10.1016/j.abrep.2024.100562",
+    "domains": [
+      "behaviour"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "llm-social-sciences",
+    "title": "Large language models in the social sciences: a three-day masterclass",
+    "year": 2024,
+    "date": "2024-11",
+    "type": "course",
+    "venue": "GitHub",
+    "authors": "Prokofieva",
+    "lead": true,
+    "doi": null,
+    "url": "https://github.com/maria-pro/LLM_SS",
+    "domains": [
+      "teaching"
+    ],
+    "featured": true,
+    "summary": "Large language models for social scientists, from NLP basics to sentiment analysis, topic modelling and text generation."
+  },
+  {
+    "id": "auditor-tenure-saudi",
+    "title": "The Impact of Changing External Auditors, Auditor Tenure, and Audit Firm Type on the Quality of Financial Reports on the Saudi Stock Exchange",
+    "year": 2024,
+    "date": "2024-09-10",
+    "type": "article",
+    "venue": "Journal of Risk and Financial Management",
+    "authors": "Alhazmi, Islam, Prokofieva",
+    "lead": false,
+    "doi": "10.3390/jrfm17090407",
+    "url": "https://doi.org/10.3390/jrfm17090407",
+    "domains": [
+      "contract"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "foot-clearance-ml",
+    "title": "A Machine Learning Model for Predicting Critical Minimum Foot Clearance (MFC) Heights",
+    "year": 2024,
+    "date": "2024-08-01",
+    "type": "article",
+    "venue": "Applied Sciences",
+    "authors": "Nagano, Prokofieva et al.",
+    "lead": false,
+    "doi": "10.3390/app14156705",
+    "url": "https://doi.org/10.3390/app14156705",
+    "domains": [],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "collaborative-business-strategies",
+    "title": "Collaborative arrangements in developing successful business strategies: Literature review",
+    "year": 2024,
+    "date": "2024",
+    "type": "chapter",
+    "venue": "Review of Technologies and Disruptive Business Strategies",
+    "authors": "Prokofieva",
+    "lead": true,
+    "doi": "10.1108/s2754-586520240000003012",
+    "url": null,
+    "domains": [
+      "control"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "fair-value-standards-jordan",
+    "title": "The development of international accounting and auditing standards for fair value accounting in the Arab Middle East, Jordan: A systematic review",
+    "year": 2024,
+    "date": "2024",
+    "type": "article",
+    "venue": "Cogent Business & Management",
+    "authors": "Alharasis, Prokofieva et al.",
+    "lead": false,
+    "doi": "10.1080/23311975.2024.2391564",
+    "url": null,
+    "domains": [
+      "contract"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "gaming-disorder-avatar-deep-learning",
+    "title": "Deep learning(s) in gaming disorder through the user-avatar bond: A longitudinal study using machine learning",
+    "year": 2023,
+    "date": "2023-12-22",
+    "type": "article",
+    "venue": "Journal of Behavioral Addictions",
+    "authors": "Stavropoulos, Zarate, Prokofieva et al.",
+    "lead": false,
+    "doi": "10.1556/2006.2023.00062",
+    "url": "https://doi.org/10.1556/2006.2023.00062",
+    "domains": [
+      "behaviour"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "bergen-shopping-addiction-scale",
+    "title": "Problematic Shopping Behavior: An Item Response Theory Examination of the Seven-Item Bergen Shopping Addiction Scale",
+    "year": 2023,
+    "date": "2023-12",
+    "type": "article",
+    "venue": "International Journal of Mental Health and Addiction",
+    "authors": "Zarate, Fullwood, Prokofieva et al.",
+    "lead": false,
+    "doi": "10.1007/s11469-022-00844-8",
+    "url": "https://doi.org/10.1007/s11469-022-00844-8",
+    "domains": [
+      "behaviour",
+      "spending"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "audit-teaching-ml-ai",
+    "title": "Integrating data analytics in teaching audit with machine learning and artificial intelligence",
+    "year": 2023,
+    "date": "2023-06",
+    "type": "article",
+    "venue": "Education and Information Technologies",
+    "authors": "Prokofieva",
+    "lead": true,
+    "doi": "10.1007/s10639-022-11474-x",
+    "url": "https://doi.org/10.1007/s10639-022-11474-x",
+    "domains": [
+      "teaching",
+      "contract"
+    ],
+    "featured": true,
+    "summary": "Bringing data analytics, machine learning and AI into how audit is taught."
+  },
+  {
+    "id": "esem-step-by-step",
+    "title": "Exploratory structural equation modeling: A streamlined step by step approach using the R Project software",
+    "year": 2023,
+    "date": "2023",
+    "type": "article",
+    "venue": "BMC Psychiatry",
+    "authors": "Prokofieva et al.",
+    "lead": true,
+    "doi": "10.1186/s12888-023-05028-9",
+    "url": null,
+    "domains": [
+      "proof"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "gonski-for-universities",
+    "title": "Gonski for universities: What if we funded higher education like schools?",
+    "year": 2023,
+    "date": "2023",
+    "type": "article",
+    "venue": "The Conversation",
+    "authors": "Hurley, Prokofieva et al.",
+    "lead": false,
+    "doi": "10.64628/aa.fhhqjwktt",
+    "url": null,
+    "domains": [],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "self-disclosed-anxiety-twitter",
+    "title": "Identifying self-disclosed anxiety on Twitter: A natural language processing approach",
+    "year": 2023,
+    "date": "2023",
+    "type": "article",
+    "venue": "Psychiatry Research",
+    "authors": "Zarate, Ball, Prokofieva et al.",
+    "lead": false,
+    "doi": "10.1016/j.psychres.2023.115579",
+    "url": null,
+    "domains": [
+      "behaviour"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "naplan-home-language",
+    "title": "Main language spoken at home and NAPLAN performance",
+    "year": 2023,
+    "date": "2023",
+    "type": "report",
+    "venue": null,
+    "authors": null,
+    "lead": false,
+    "doi": null,
+    "url": null,
+    "domains": [],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "bergen-yale-scale",
+    "title": "Measuring problematic sexual behaviour: An item response theory examination of the Bergen--Yale Sex Addiction Scale",
+    "year": 2023,
+    "date": "2023",
+    "type": "article",
+    "venue": "Clinical Psychologist",
+    "authors": "Zarate, Tran, Rehm, Prokofieva et al.",
+    "lead": false,
+    "doi": "10.1080/13284207.2023.2221781",
+    "url": null,
+    "domains": [
+      "behaviour"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "needs-based-funding-brief",
+    "title": "Needs based funding: Lessons from the school sector. Policy brief",
+    "year": 2023,
+    "date": "2023",
+    "type": "policy",
+    "venue": null,
+    "authors": null,
+    "lead": false,
+    "doi": null,
+    "url": null,
+    "domains": [],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "online-behavioural-addictions-network",
+    "title": "Online behavioral addictions: Longitudinal network analysis and invariance across men and women",
+    "year": 2023,
+    "date": "2023",
+    "type": "article",
+    "venue": "Technology, Mind, and Behavior",
+    "authors": "Zarate, Dorman, Prokofieva et al.",
+    "lead": false,
+    "doi": "10.1037/tmb0000105",
+    "url": null,
+    "domains": [
+      "behaviour"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "online-behavioural-addictions-gender-abstract",
+    "title": "The longitudinal network of online behavioral addictions: Are there gender differences?",
+    "year": 2023,
+    "date": "2023",
+    "type": "article",
+    "venue": "Journal of Behavioral Addictions, 12 (conference abstracts)",
+    "authors": null,
+    "lead": false,
+    "doi": null,
+    "url": null,
+    "domains": [
+      "behaviour"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "auditor-specialisation-fair-value",
+    "title": "The moderating impact of auditor industry specialisation on the relationship between fair value disclosure and audit fees: Empirical evidence from Jordan",
+    "year": 2023,
+    "date": "2023",
+    "type": "article",
+    "venue": "Asian Review of Accounting",
+    "authors": "Alharasis, Prokofieva et al.",
+    "lead": false,
+    "doi": "10.1108/ara-03-2022-0050",
+    "url": null,
+    "domains": [
+      "contract"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "ogdq-adults",
+    "title": "Using the Online Gambling Disorder Questionnaire (OGD-Q) with adults: Factor structure, reliability, external validity, and measurement invariance across age and gender",
+    "year": 2023,
+    "date": "2023",
+    "type": "article",
+    "venue": "International Journal of Mental Health and Addiction",
+    "authors": "Gomez, Brown, Gill, Prokofieva et al.",
+    "lead": false,
+    "doi": "10.1007/s11469-022-00833-x",
+    "url": null,
+    "domains": [
+      "behaviour"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "gaming-disorder-ml-abstract",
+    "title": "Utilizing machine learning to understand the severity of gaming disorder symptoms: The role of the user-avatar bond",
+    "year": 2023,
+    "date": "2023",
+    "type": "article",
+    "venue": "Journal of Behavioral Addictions, 12 (conference abstracts)",
+    "authors": null,
+    "lead": false,
+    "doi": null,
+    "url": null,
+    "domains": [
+      "behaviour"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "esem",
+    "title": "esem: Exploratory Structural Equation Modeling",
+    "year": 2023,
+    "date": "2023",
+    "type": "software",
+    "venue": "CRAN",
+    "authors": "Prokofieva et al.",
+    "lead": true,
+    "doi": "10.32614/cran.package.esem",
+    "url": "https://github.com/maria-pro/esem",
+    "domains": [
+      "proof"
+    ],
+    "featured": true,
+    "summary": "R package for exploratory structural equation modeling, with a step-by-step companion paper."
+  },
+  {
+    "id": "social-media-health-promotion-review",
+    "title": "The potential of social media in health promotion beyond creating awareness: an integrative review",
+    "year": 2022,
+    "date": "2022-12-21",
+    "type": "article",
+    "venue": "BMC Public Health",
+    "authors": "Ghahramani, de Courten, Prokofieva",
+    "lead": false,
+    "doi": "10.1186/s12889-022-14885-0",
+    "url": "http://dx.doi.org/10.1186/s12889-022-14885-0",
+    "domains": [],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "ogdq-irt",
+    "title": "Online Gambling Disorder Questionnaire (OGD-Q): An item response theory examination",
+    "year": 2022,
+    "date": "2022-12",
+    "type": "article",
+    "venue": "Addictive Behaviors Reports",
+    "authors": "Stavropoulos, Monger, Zarate, Prokofieva et al.",
+    "lead": false,
+    "doi": "10.1016/j.abrep.2022.100449",
+    "url": "https://doi.org/10.1016/j.abrep.2022.100449",
+    "domains": [
+      "behaviour"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "cross-addiction-covid-anxiety",
+    "title": "Cross-Addiction Risk Profile Associations with COVID-19 Anxiety: a Preliminary Exploratory Study",
+    "year": 2022,
+    "date": "2022-07-06",
+    "type": "article",
+    "venue": "International Journal of Mental Health and Addiction",
+    "authors": "Dowd, Hein, Diez, Prokofieva et al.",
+    "lead": false,
+    "doi": "10.1007/s11469-022-00862-6",
+    "url": "http://dx.doi.org/10.1007/s11469-022-00862-6",
+    "domains": [
+      "behaviour"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "web-of-addictions",
+    "title": "Unravelling the web of addictions: A network analysis approach",
+    "year": 2022,
+    "date": "2022-06",
+    "type": "article",
+    "venue": "Addictive Behaviors Reports",
+    "authors": "Zarate, Ball, Montag, Prokofieva et al.",
+    "lead": false,
+    "doi": "10.1016/j.abrep.2022.100406",
+    "url": "https://doi.org/10.1016/j.abrep.2022.100406",
+    "domains": [
+      "behaviour"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "esem-checklist",
+    "title": "A checklist for Exploratory Structural Equation Modeling",
+    "year": 2022,
+    "date": "2022-02-25",
+    "type": "dataset",
+    "venue": "DANS",
+    "authors": null,
+    "lead": false,
+    "doi": "10.17026/dans-x96-nvw5",
+    "url": "https://ssh.datastations.nl/citation?persistentId=doi:10.17026/DANS-X96-NVW5",
+    "domains": [
+      "proof"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "fair-value-audit-fees-gfc",
+    "title": "Fair value accounting and audit fees: The moderating effect of the global financial crisis in Jordan",
+    "year": 2022,
+    "date": "2022",
+    "type": "article",
+    "venue": "Asian Academy of Management Journal of Accounting and Finance",
+    "authors": null,
+    "lead": false,
+    "doi": "10.21315/aamjaf2022.18.1.7",
+    "url": null,
+    "domains": [
+      "contract"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "supply-chain-visualisation-chapter",
+    "title": "Supply chain and decision making: What is next for visualisation?",
+    "year": 2022,
+    "date": "2022",
+    "type": "chapter",
+    "venue": "Studies in Computational Intelligence",
+    "authors": "Lou, Bonti, Prokofieva et al.",
+    "lead": false,
+    "doi": "10.1007/978-3-030-93119-3_26",
+    "url": null,
+    "domains": [
+      "control"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "online-flow-questionnaire",
+    "title": "The Online Flow Questionnaire: An item response theory examination",
+    "year": 2022,
+    "date": "2022",
+    "type": "article",
+    "venue": "Cyberpsychology, Behavior, and Social Networking",
+    "authors": "Stavropoulos, Footitt, Zarate, Prokofieva et al.",
+    "lead": false,
+    "doi": "10.1089/cyber.2022.0031",
+    "url": null,
+    "domains": [
+      "behaviour"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "dashboards-teaching-accounting",
+    "title": "Using dashboards and data visualizations in teaching accounting",
+    "year": 2021,
+    "date": "2021-09-26",
+    "type": "article",
+    "venue": "Education and Information Technologies",
+    "authors": "Prokofieva",
+    "lead": true,
+    "doi": "10.1007/s10639-021-10525-z",
+    "url": "https://doi.org/10.1007/s10639-021-10525-z",
+    "domains": [
+      "teaching"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "audit-fees-fair-value-industry",
+    "title": "External audit fees and fair value disclosures among Jordanian listed companies: Does the type of corporate industry matter?",
+    "year": 2021,
+    "date": "2021",
+    "type": "article",
+    "venue": "Asian Journal of Business and Accounting",
+    "authors": null,
+    "lead": false,
+    "doi": "10.22452/ajba.vol14no2.3",
+    "url": null,
+    "domains": [
+      "contract"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "social-media-analytics-r-packages",
+    "title": "Visualisation for social media analytics: Landscape of R packages",
+    "year": 2021,
+    "date": "2021",
+    "type": "article",
+    "venue": "2021 25th International Conference Information Visualisation (IV)",
+    "authors": "Ghahramani, Prokofieva",
+    "lead": false,
+    "doi": "10.1109/iv53921.2021.00042",
+    "url": null,
+    "domains": [
+      "proof"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "fair-value-auditing-profession",
+    "title": "Fair value accounting and implications for the auditing profession: Historical overview",
+    "year": 2020,
+    "date": "2020",
+    "type": "article",
+    "venue": "Accounting and Finance Research",
+    "authors": "Alharasis, Prokofieva et al.",
+    "lead": false,
+    "doi": "10.5430/afr.v9n3p31",
+    "url": null,
+    "domains": [
+      "contract"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "supply-chain-visualisation-review",
+    "title": "Literature review on visualization in supply chain and decision making",
+    "year": 2020,
+    "date": "2020",
+    "type": "article",
+    "venue": "2020 24th International Conference Information Visualisation (IV)",
+    "authors": "Lou, Bonti, Prokofieva et al.",
+    "lead": false,
+    "doi": "10.1109/iv51561.2020.00019",
+    "url": null,
+    "domains": [
+      "control"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "social-media-capital-raising",
+    "title": "Promoting social media analytics in capital raising: A design science-based approach",
+    "year": 2020,
+    "date": "2020",
+    "type": "article",
+    "venue": "Social Network Analysis and Mining",
+    "authors": "Prokofieva et al.",
+    "lead": true,
+    "doi": "10.1007/s13278-020-00652-9",
+    "url": null,
+    "domains": [
+      "own"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "visualising-financial-data-teaching",
+    "title": "Visualization of financial data in teaching financial accounting",
+    "year": 2020,
+    "date": "2020",
+    "type": "article",
+    "venue": "2020 24th International Conference Information Visualisation (IV)",
+    "authors": "Prokofieva",
+    "lead": true,
+    "doi": "10.1109/iv51561.2020.00109",
+    "url": null,
+    "domains": [
+      "teaching"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "accvizr",
+    "title": "accVizR: Using tidy data approach and layered grammar of graphics for visualizing accounting data",
+    "year": 2020,
+    "date": "2020",
+    "type": "article",
+    "venue": "2020 24th International Conference Information Visualisation (IV)",
+    "authors": "Prokofieva",
+    "lead": true,
+    "doi": "10.1109/iv51561.2020.00113",
+    "url": null,
+    "domains": [
+      "proof",
+      "teaching"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "blockchain-healthcare",
+    "title": "Blockchain in healthcare",
+    "year": 2019,
+    "date": "2019",
+    "type": "article",
+    "venue": "Australasian Journal of Information Systems",
+    "authors": "Prokofieva et al.",
+    "lead": true,
+    "doi": "10.3127/ajis.v23i0.2203",
+    "url": null,
+    "domains": [],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "social-media-analytics-r",
+    "title": "Exploring social media analytics with R",
+    "year": 2018,
+    "date": "2018",
+    "type": "article",
+    "venue": "Australasian Conference on Information Systems (ACIS 2018)",
+    "authors": null,
+    "lead": false,
+    "doi": null,
+    "url": null,
+    "domains": [
+      "proof"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "twitter-investor-behaviour-conversation",
+    "title": "Twitter influences investor behaviour whether companies intend it to or not: New research",
+    "year": 2016,
+    "date": "2016",
+    "type": "article",
+    "venue": "The Conversation",
+    "authors": "Prokofieva",
+    "lead": true,
+    "doi": "10.64628/aa.gajaeryp6",
+    "url": null,
+    "domains": [
+      "own"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "twitter-corporate-disclosure",
+    "title": "Twitter-Based Dissemination of Corporate Disclosure and the Intervening Effects of Firms' Visibility: Evidence from Australian-Listed Companies",
+    "year": 2015,
+    "date": "2015-08-01",
+    "type": "article",
+    "venue": "Journal of Information Systems",
+    "authors": "Prokofieva",
+    "lead": true,
+    "doi": "10.2308/isys-50994",
+    "url": "http://dx.doi.org/10.2308/isys-50994",
+    "domains": [
+      "own"
+    ],
+    "featured": true,
+    "summary": "Whether spreading corporate announcements on Twitter changes their market effect: 3,516 ASX announcements from 109 listed companies, 2008–2013."
+  },
+  {
+    "id": "group-work-perceptions",
+    "title": "A tale of two cohorts: Identifying differences in group work perceptions",
+    "year": 2015,
+    "date": "2015",
+    "type": "article",
+    "venue": "Asian Review of Accounting",
+    "authors": "Prokofieva et al.",
+    "lead": true,
+    "doi": "10.1108/ara-10-2013-0063",
+    "url": null,
+    "domains": [
+      "teaching"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "press-visibility-voluntary-disclosure",
+    "title": "The effect of press visibility on voluntary disclosure: cross-country evidence",
+    "year": 2014,
+    "date": "2014",
+    "type": "article",
+    "venue": "Corporate Ownership and Control",
+    "authors": "Prokofieva et al.",
+    "lead": true,
+    "doi": "10.22495/cocv11i3p5",
+    "url": "https://doi.org/10.22495/cocv11i3p5",
+    "domains": [
+      "control"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "wiki-student-interactions",
+    "title": "Evaluating types of students' interactions in a wiki-based collaborative learning project",
+    "year": 2013,
+    "date": "2013",
+    "type": "article",
+    "venue": null,
+    "authors": null,
+    "lead": false,
+    "doi": null,
+    "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84886078308&partnerID=MN8TOARS",
+    "domains": [
+      "teaching"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "teaching-ifrs-russia",
+    "title": "The difficulties of teaching IFRS in Russia",
+    "year": 2013,
+    "date": "2013",
+    "type": "article",
+    "venue": "Issues in Accounting Education",
+    "authors": "Vysotskaya, Prokofieva",
+    "lead": false,
+    "doi": "10.2308/iace-50363",
+    "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84878412679&partnerID=MN8TOARS",
+    "domains": [
+      "teaching"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "board-composition-audit-fee-russia",
+    "title": "Board composition and audit fee: Evidence from Russia",
+    "year": 2011,
+    "date": "2011",
+    "type": "article",
+    "venue": "Corporate Ownership and Control",
+    "authors": "Prokofieva et al.",
+    "lead": true,
+    "doi": "10.22495/cocv8i2c5p5",
+    "url": "https://doi.org/10.22495/cocv8i2c5p5",
+    "domains": [
+      "control",
+      "contract"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "accounting-graduate-employability",
+    "title": "Identifying employment expectation-performance gaps of accounting graduates using employability indicators",
+    "year": 2011,
+    "date": "2011",
+    "type": "article",
+    "venue": "Accounting and Finance Association of Australia and New Zealand Conference (AFAANZ 2011)",
+    "authors": null,
+    "lead": false,
+    "doi": null,
+    "url": null,
+    "domains": [
+      "teaching"
+    ],
+    "featured": false,
+    "summary": ""
+  },
+  {
+    "id": "wiki-group-projects",
+    "title": "Student perception of effectiveness of wiki-based group projects in higher education",
+    "year": 2011,
+    "date": "2011",
+    "type": "article",
+    "venue": null,
+    "authors": null,
+    "lead": false,
+    "doi": null,
+    "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84905084482&partnerID=MN8TOARS",
+    "domains": [
+      "teaching"
+    ],
+    "featured": false,
+    "summary": ""
+  }
+]

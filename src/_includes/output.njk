@@ -1,0 +1,21 @@
+{#- Renders one output. Expects `o` in scope. -#}
+{%- set href = (o.doi | doiUrl) or o.url -%}
+<li class="output" data-domains="{{ (o.domains | join(' ')) if o.domains.length else 'other' }}" data-type="{{ o.type }}">
+  <p class="output__meta">
+    <span class="output__type">{{ o.type | typeLabel }}</span>
+    <span class="output__year">{{ o.year }}</span>{% if o.venue %}<span class="output__venue">{{ o.venue }}</span>{% endif %}
+  </p>
+  <h3 class="output__title">{% if href %}<a href="{{ href }}">{{ o.title }}</a>{% else %}{{ o.title }}{% endif %}</h3>
+  {%- if o.summary and showSummary %}
+  <p class="output__summary">{{ o.summary }}</p>
+  {%- endif %}
+  {%- if o.authors %}
+  <p class="output__authors">{{ o.authors | markAuthor | safe }}</p>
+  {%- endif %}
+  {%- if o.doi %}
+  <p class="output__links">
+    {%- if o.doi %}<a class="doi" href="{{ o.doi | doiUrl }}">doi:{{ o.doi }}</a>{% endif %}
+    {%- if o.url and o.doi %}<a href="{{ o.url }}">Code</a>{% endif %}
+  </p>
+  {%- endif %}
+</li>

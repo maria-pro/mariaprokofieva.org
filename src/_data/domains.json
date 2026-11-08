@@ -1,0 +1,34 @@
+[
+  {
+    "key": "control",
+    "n": "01",
+    "label": "Under their control",
+    "short": "Control",
+    "scope": "Management and boards",
+    "line": "How executives and boards report, disclose and talk about the money they run."
+  },
+  {
+    "key": "contract",
+    "n": "02",
+    "label": "Under contract",
+    "short": "Contract",
+    "scope": "Audit and assurance",
+    "line": "How auditors check it, and how AI agents doing that work can themselves be verified."
+  },
+  {
+    "key": "own",
+    "n": "03",
+    "label": "Their own",
+    "short": "Own money",
+    "scope": "Investment and behavioural finance",
+    "line": "How investors read companies and react to what they disclose."
+  },
+  {
+    "key": "spending",
+    "n": "04",
+    "label": "Spending it",
+    "short": "Spending",
+    "scope": "Marketing and agentic commerce",
+    "line": "Agent-to-agent transactions break existing marketing metrics."
+  }
+]

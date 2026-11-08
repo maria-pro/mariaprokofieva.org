@@ -1,0 +1,57 @@
+---
+layout: base.njk
+title: Teaching
+bodyClass: teaching
+permalink: /teaching/
+description: "Maria Prokofieva, Associate Professor, AI and finance, teaches advanced AI, agentic AI and language models to specialist and non-specialist audiences without dumbing it down."
+---
+{%- set teach = outputs | inDomain('teaching') | sortOutputs -%}
+{%- set materials = teach | selectattr('featured') -%}
+<section class="wrap page-head">
+  <h1>Teaching</h1>
+  <p class="lede">Advanced AI, taught to any audience without dumbing it down.</p>
+</section>
+
+<section class="wrap formats" aria-labelledby="formats-h">
+  <h2 id="formats-h" class="visually-hidden">Formats</h2>
+  <ol class="formats__list">
+    <li>
+      <h3>University units</h3>
+      <p>AI, analytics and machine learning for finance and accounting students in the Business School.</p>
+    </li>
+    <li>
+      <h3>ACSPRI postgraduate courses</h3>
+      <p>Language models and machine learning for researchers across the social sciences.</p>
+    </li>
+    <li>
+      <h3>The agentic AI lab</h3>
+      <p>Hands-on builds of agent systems that run on modest hardware, with the checks that make their output traceable.</p>
+    </li>
+  </ol>
+</section>
+
+<section class="wrap" aria-labelledby="materials-h">
+  <header class="section-head">
+    <h2 id="materials-h">Open teaching materials</h2>
+    <p>Code, data and exercises released for anyone to teach with.</p>
+  </header>
+  {%- set showSummary = true %}
+  <ul class="outputs">
+    {%- for o in materials %}
+    {% include "output.njk" %}
+    {%- endfor %}
+  </ul>
+</section>
+
+<section class="wrap" aria-labelledby="research-h">
+  <header class="section-head">
+    <h2 id="research-h">Research on teaching</h2>
+    <p>Published work on how analytics, visualisation and AI change accounting and audit education.</p>
+  </header>
+  {%- set showSummary = false %}
+  <ul class="outputs outputs--compact">
+    {%- for o in teach %}{% if not o.featured %}
+    {% include "output.njk" %}
+    {%- endif %}{% endfor %}
+  </ul>
+</section>

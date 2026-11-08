@@ -1,0 +1,63 @@
+---
+layout: base.njk
+title: Work
+bodyClass: work
+permalink: /work/
+description: "Papers, datasets, software and submissions by Maria Prokofieva, Associate Professor, AI and finance: AI and machine learning for financial reporting, audit, investment and agentic commerce."
+---
+{%- set all = outputs | sortOutputs -%}
+{%- set filters = [
+  {key: 'control', label: 'Control'},
+  {key: 'contract', label: 'Contract'},
+  {key: 'own', label: 'Own money'},
+  {key: 'spending', label: 'Spending'},
+  {key: 'behaviour', label: 'Behaviour'},
+  {key: 'proof', label: 'Open tools'},
+  {key: 'teaching', label: 'Teaching'},
+  {key: 'other', label: 'Other'}
+] -%}
+{%- set types = all | distinctTypes -%}
+<style>
+{%- for f in filters %}
+.work-list:has(#d-{{ f.key }}:checked) .output:not([data-domains~="{{ f.key }}"]) { display: none; }
+{%- endfor %}
+{%- for t in types %}
+.work-list:has(#t-{{ t }}:checked) .output:not([data-type="{{ t }}"]) { display: none; }
+{%- endfor %}
+</style>
+
+<section class="wrap page-head">
+  <h1>Work</h1>
+  <p class="lede">Every output gets an entry here: papers, datasets, software, submissions and courses. Where the data allow, models come with open code, data and evaluation results.</p>
+</section>
+
+<section class="wrap work-list" aria-label="All outputs">
+  <form class="filters" aria-label="Filter outputs" onsubmit="return false">
+    <fieldset>
+      <legend>Area</legend>
+      <div class="chips">
+        <input type="radio" name="d" id="d-all" checked><label for="d-all">All</label>
+        {%- for f in filters %}
+        <input type="radio" name="d" id="d-{{ f.key }}"><label for="d-{{ f.key }}">{{ f.label }} <span class="n">{{ all | inDomain(f.key) | count }}</span></label>
+        {%- endfor %}
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Type</legend>
+      <div class="chips">
+        <input type="radio" name="t" id="t-all" checked><label for="t-all">All</label>
+        {%- for t in types %}
+        <input type="radio" name="t" id="t-{{ t }}"><label for="t-{{ t }}">{{ t | typeLabel }}</label>
+        {%- endfor %}
+      </div>
+    </fieldset>
+  </form>
+
+  {%- set showSummary = true %}
+  <ul class="outputs">
+    {%- for o in all %}
+    {% include "output.njk" %}
+    {%- endfor %}
+  </ul>
+  <p class="source-note">The full publication record is also on <a href="{{ site.links.orcid }}">ORCID</a>.</p>
+</section>

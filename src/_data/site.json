@@ -1,0 +1,48 @@
+{
+  "url": "https://mariaprokofieva.org",
+  "name": "Maria Prokofieva",
+  "descriptor": "Associate Professor · AI-native finance and accounting · FCPA",
+  "seo": "Associate Professor, AI and finance",
+  "tagline": "AI for the human side of money.",
+  "spine": "I build AI that reads the human behaviour behind financial numbers, in how people manage, audit, invest and spend money, and I publish the evidence that it works.",
+  "spineThird": "Builds AI that reads the human behaviour behind financial numbers, in how people manage, audit, invest and spend money, and publishes the evidence that it works.",
+  "bio": "Maria Prokofieva is an Associate Professor and Fellow of CPA Australia, native in both finance and AI. Money is managed by people — executives who control it, auditors contracted to check it, investors and consumers spending their own — and she builds machine-learning and language-model systems that read the human behaviour behind the numbers. Her work spans financial reporting and audit, behavioural finance and agentic commerce, and her models are released with open code, data and evaluation results, so their quality and impact can be tracked rather than taken on trust. She teaches advanced AI to specialist and non-specialist audiences without simplifying it away.",
+  "orcid": "0000-0003-1974-3827",
+  "links": {
+    "orcid": "https://orcid.org/0000-0003-1974-3827",
+    "github": "https://github.com/maria-pro",
+    "linkedin": "https://www.linkedin.com/in/mariapr/",
+    "vu": "https://researchers.vu.edu.au/1993-maria-prokofieva"
+  },
+  "email": {
+    "academic": "maria.prokofieva@vu.edu.au",
+    "industry": "maria.prokofieva@gmail.com"
+  },
+  "roles": [
+    "Associate Professor, Business School, Victoria University (since 2025)",
+    "Machine Learning and AI Research Lead, Mitchell Institute (since 2018)",
+    "Fellow of CPA Australia (FCPA)"
+  ],
+  "service": [
+    "Chair, CPA Australia Analytics and Digital Innovation discussion group",
+    "Victoria University administrator and contact, GitHub Campus Program"
+  ],
+  "education": [
+    "PhD, Computer Science",
+    "Master's and Bachelor's, Computer Science (Russian system), Stavropol State University",
+    "Graduate Certificate in Accounting, La Trobe University",
+    "Graduate Certificate in Tertiary Education, Victoria University",
+    "Certificate IV in Cyber Security, Victoria University"
+  ],
+  "knowsAbout": [
+    "Artificial intelligence",
+    "Machine learning",
+    "Large language models",
+    "Agentic AI",
+    "Financial reporting",
+    "Audit and assurance",
+    "Behavioural finance",
+    "Agentic commerce",
+    "Digital behaviour"
+  ]
+}

@@ -1,0 +1,101 @@
+---
+layout: base.njk
+bodyClass: home
+---
+{%- set featured = outputs | featuredOnly | sortOutputs -%}
+<section class="hero wrap" aria-labelledby="hero-name">
+  <p class="eyebrow" id="hero-name"><span class="eyebrow__name">Maria Prokofieva</span> <span class="eyebrow__desc">{{ site.descriptor }}</span></p>
+  <h1 class="tagline">AI for the human side&nbsp;of&nbsp;money.</h1>
+  <p class="spine">{{ site.spine }}</p>
+  <p class="hero__links">
+    <a class="btn" href="/work/">See the work</a>
+    <a class="textlink" href="/about/">About and contact</a>
+  </p>
+</section>
+
+<section class="domain wrap" aria-labelledby="domain-h">
+  <header class="section-head">
+    <h2 id="domain-h">Money, as people handle it</h2>
+    <p>Four ways people hold money, and the behaviour underneath all of them.</p>
+  </header>
+
+  <ol class="ledger">
+    {%- for d in domains %}
+    {%- set items = featured | inDomain(d.key) %}
+    <li class="ledger__cell">
+      <p class="ledger__n" aria-hidden="true">{{ d.n }}</p>
+      <h3 class="ledger__label">{{ d.label }}</h3>
+      <p class="ledger__scope">{{ d.scope }}</p>
+      <p class="ledger__line">{{ d.line }}</p>
+      {%- if items.length %}
+      <ul class="ledger__items">
+        {%- for o in items | head(3) %}
+        <li><a href="{{ (o.doi | doiUrl) or o.url }}">{{ o.title }}</a> <span class="ledger__kind">{{ o.type | typeLabel }}, {{ o.year }}</span></li>
+        {%- endfor %}
+      </ul>
+      {%- else %}
+      <p class="ledger__current"><span class="pill">Current work</span> Outputs will be listed here as they are released.</p>
+      {%- endif %}
+    </li>
+    {%- endfor %}
+  </ol>
+
+  <div class="layer">
+    <div class="layer__text">
+      <h3 class="layer__label">Underneath all four: human behaviour</h3>
+      <p>Digital behaviour, purchasing and addiction are not a separate field. They are the layer under how people manage, audit, invest and spend.</p>
+    </div>
+    {%- set layer = featured | inDomain('behaviour') %}
+    {%- if layer.length %}
+    <ul class="ledger__items layer__items">
+      {%- for o in layer | head(2) %}
+      <li><a href="{{ (o.doi | doiUrl) or o.url }}">{{ o.title }}</a> <span class="ledger__kind">{{ o.venue or (o.type | typeLabel) }}, {{ o.year }}</span></li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
+  </div>
+</section>
+
+<section class="proof" aria-labelledby="proof-h">
+  <div class="wrap proof__inner">
+    <header class="section-head">
+      <h2 id="proof-h">Proof, not promises</h2>
+      <p>Models are released with open code, data and evaluation results, so quality and impact are tracked, not promised.</p>
+    </header>
+    <ul class="proof__grid">
+      {%- for o in featured | inDomain('proof') %}
+      <li class="proof__item">
+        <p class="output__meta"><span class="output__type">{{ o.type | typeLabel }}</span><span class="output__year">{{ o.year }}</span></p>
+        <h3><a href="{{ (o.doi | doiUrl) or o.url }}">{{ o.title }}</a></h3>
+        {%- if o.summary %}<p>{{ o.summary }}</p>{% endif %}
+      </li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="teach wrap" aria-labelledby="teach-h">
+  <div class="teach__text">
+    <h2 id="teach-h">Advanced AI, taught without dumbing it down</h2>
+    <p>University units, ACSPRI postgraduate courses and the agentic AI lab: advanced AI for any audience, specialist or not, with nothing simplified away.</p>
+    <p><a class="textlink" href="/teaching/">Teaching and materials</a></p>
+  </div>
+  <ul class="teach__list">
+    {%- for o in featured | inDomain('teaching') | withoutType('dataset') | head(3) %}
+    <li><a href="{{ (o.doi | doiUrl) or o.url }}">{{ o.title }}</a> <span class="ledger__kind">{{ o.type | typeLabel }}, {{ o.year }}</span></li>
+    {%- endfor %}
+  </ul>
+</section>
+
+<section class="latest wrap" aria-labelledby="latest-h">
+  <header class="section-head section-head--row">
+    <h2 id="latest-h">Latest</h2>
+    <a class="textlink" href="/work/">All {{ outputs | count }} outputs</a>
+  </header>
+  {%- set showSummary = false %}
+  <ul class="outputs outputs--compact">
+    {%- for o in outputs | homeLatest(6) %}
+    {% include "output.njk" %}
+    {%- endfor %}
+  </ul>
+</section>

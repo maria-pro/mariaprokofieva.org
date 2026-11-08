@@ -1,0 +1,129 @@
+{%- set pageTitle = (title + " — " + site.name + ", " + site.seo) if title else (site.name + " — " + site.seo) -%}
+{%- set pageDesc = description or (site.name + ", " + site.seo + ". " + site.spineThird) -%}
+{%- set canonical = site.url + page.url -%}
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ pageTitle }}</title>
+  <meta name="description" content="{{ pageDesc }}">
+  <meta name="author" content="{{ site.name }}">
+  <link rel="canonical" href="{{ canonical }}">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f6f3ec" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#131517" media="(prefers-color-scheme: dark)">
+
+  <meta property="og:type" content="{{ 'profile' if page.url == '/about/' else 'website' }}">
+  <meta property="og:site_name" content="{{ site.name }}">
+  <meta property="og:title" content="{{ pageTitle }}">
+  <meta property="og:description" content="{{ pageDesc }}">
+  <meta property="og:url" content="{{ canonical }}">
+  <meta property="og:locale" content="en_AU">
+  {%- if page.url == '/about/' %}
+  <meta property="profile:first_name" content="Maria">
+  <meta property="profile:last_name" content="Prokofieva">
+  {%- endif %}
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ pageTitle }}">
+  <meta name="twitter:description" content="{{ pageDesc }}">
+
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="/assets/site.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "{{ site.url }}/#website",
+        "url": "{{ site.url }}/",
+        "name": "{{ site.name }}",
+        "description": {{ (site.name + ", " + site.seo + ". " + site.tagline) | dump | safe }},
+        "inLanguage": "en-AU",
+        "publisher": { "@id": "{{ site.url }}/#person" }
+      },
+      {
+        "@type": "Person",
+        "@id": "{{ site.url }}/#person",
+        "name": "{{ site.name }}",
+        "givenName": "Maria",
+        "familyName": "Prokofieva",
+        "url": "{{ site.url }}/",
+        "jobTitle": "Associate Professor",
+        "honorificSuffix": "FCPA",
+        "description": {{ site.spineThird | dump | safe }},
+        "worksFor": {
+          "@type": "CollegeOrUniversity",
+          "name": "Victoria University",
+          "url": "https://www.vu.edu.au/",
+          "department": { "@type": "Organization", "name": "Victoria University Business School" }
+        },
+        "affiliation": [
+          { "@type": "CollegeOrUniversity", "name": "Victoria University" },
+          { "@type": "ResearchOrganization", "name": "Mitchell Institute" }
+        ],
+        "memberOf": { "@type": "Organization", "name": "CPA Australia", "url": "https://www.cpaaustralia.com.au/" },
+        "alumniOf": [
+          { "@type": "CollegeOrUniversity", "name": "Stavropol State University" },
+          { "@type": "CollegeOrUniversity", "name": "La Trobe University" },
+          { "@type": "CollegeOrUniversity", "name": "Victoria University" }
+        ],
+        "knowsAbout": {{ site.knowsAbout | dump | safe }},
+        "identifier": { "@type": "PropertyValue", "propertyID": "ORCID", "value": "{{ site.orcid }}" },
+        "sameAs": [
+          "{{ site.links.orcid }}",
+          "{{ site.links.github }}",
+          "{{ site.links.linkedin }}",
+          "{{ site.links.vu }}"
+        ]
+      }{% if page.url == '/about/' %},
+      {
+        "@type": "ProfilePage",
+        "@id": "{{ canonical }}#page",
+        "url": "{{ canonical }}",
+        "name": {{ pageTitle | dump | safe }},
+        "mainEntity": { "@id": "{{ site.url }}/#person" },
+        "isPartOf": { "@id": "{{ site.url }}/#website" }
+      }{% endif %}
+    ]
+  }
+  </script>
+</head>
+<body class="page-{{ bodyClass or 'default' }}">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="wrap masthead__inner">
+      <a class="wordmark" href="/" aria-label="{{ site.name }}, home">Maria Prokofieva</a>
+      <nav aria-label="Main">
+        <ul class="nav">
+          {%- for item in [{url: '/work/', label: 'Work'}, {url: '/teaching/', label: 'Teaching'}, {url: '/about/', label: 'About'}] %}
+          <li><a href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a></li>
+          {%- endfor %}
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    {{ content | safe }}
+  </main>
+
+  <footer class="colophon">
+    <div class="wrap colophon__inner">
+      <p class="colophon__name">{{ site.name }}<br><span>{{ site.descriptor }}</span></p>
+      <ul class="colophon__links">
+        <li><a href="{{ site.links.orcid }}" rel="me">ORCID</a></li>
+        <li><a href="{{ site.links.github }}" rel="me">GitHub</a></li>
+        <li><a href="{{ site.links.linkedin }}" rel="me">LinkedIn</a></li>
+        <li><a href="{{ site.links.vu }}" rel="me">University profile</a></li>
+      </ul>
+      <p class="colophon__fine">© {{ buildDate.getFullYear() }} {{ site.name }}. No tracking, no cookies.</p>
+    </div>
+  </footer>
+</body>
+</html>
