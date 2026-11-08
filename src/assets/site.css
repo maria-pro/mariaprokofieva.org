@@ -1,14 +1,14 @@
 /* mariaprokofieva.org: one stylesheet, no framework. */
 
 :root {
-  --paper: #f6f3ec;
-  --paper-2: #ede7db;
-  --ink: #1a1c1e;
-  --ink-2: #4b5056;
-  --rule: #d6cebf;
-  --accent: #7d2b27;
-  --accent-ink: #f8f5ef;
-  --focus: #1f5fbf;
+  --paper: #f3f5f8;
+  --paper-2: #e6eaf0;
+  --ink: #141a24;
+  --ink-2: #4a5566;
+  --rule: #cdd5e0;
+  --accent: #1d3d9f;
+  --accent-ink: #f3f5f8;
+  --focus: #2563eb;
 
   --serif: "Newsreader", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
   --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
@@ -21,14 +21,14 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --paper: #131517;
-    --paper-2: #1b1e21;
-    --ink: #ebe7df;
-    --ink-2: #a8adb3;
-    --rule: #30353a;
-    --accent: #e6a197;
-    --accent-ink: #131517;
-    --focus: #8ab4ff;
+    --paper: #0f141c;
+    --paper-2: #171e29;
+    --ink: #e6eaf0;
+    --ink-2: #a3adbb;
+    --rule: #2a3340;
+    --accent: #9db8ff;
+    --accent-ink: #0f141c;
+    --focus: #c3d3ff;
   }
 }
 
