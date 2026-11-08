@@ -26,7 +26,7 @@
     "venue": "Zenodo",
     "authors": "Prokofieva",
     "lead": true,
-    "doi": "10.5281/zenodo.23999276",
+    "doi": "10.5281/zenodo.23999275",
     "url": "https://zenodo.org/doi/10.5281/zenodo.23999276",
     "domains": [
       "contract",
@@ -44,7 +44,7 @@
     "venue": "Zenodo",
     "authors": "Prokofieva",
     "lead": true,
-    "doi": "10.5281/zenodo.23999280",
+    "doi": "10.5281/zenodo.23999279",
     "url": "https://zenodo.org/doi/10.5281/zenodo.23999280",
     "domains": [
       "contract",
@@ -62,7 +62,7 @@
     "venue": "Zenodo",
     "authors": "Prokofieva",
     "lead": true,
-    "doi": "10.5281/zenodo.23795230",
+    "doi": "10.5281/zenodo.23795229",
     "url": "https://zenodo.org/doi/10.5281/zenodo.23795230",
     "domains": [
       "control",
@@ -81,7 +81,7 @@
     "venue": "Zenodo",
     "authors": "Stavropoulos, Prokofieva et al.",
     "lead": false,
-    "doi": "10.5281/zenodo.23807408",
+    "doi": "10.5281/zenodo.23807407",
     "url": "https://zenodo.org/doi/10.5281/zenodo.23807408",
     "domains": [
       "proof"
@@ -98,7 +98,7 @@
     "venue": "Zenodo",
     "authors": "Stavropoulos, Prokofieva",
     "lead": false,
-    "doi": "10.5281/zenodo.23681545",
+    "doi": "10.5281/zenodo.23681544",
     "url": "https://zenodo.org/doi/10.5281/zenodo.23681545",
     "domains": [
       "proof"
@@ -134,7 +134,7 @@
     "venue": "Zenodo",
     "authors": "Stavropoulos, Brown, Zarate, Prokofieva",
     "lead": false,
-    "doi": "10.5281/zenodo.22886040",
+    "doi": "10.5281/zenodo.22886039",
     "url": "https://zenodo.org/doi/10.5281/zenodo.22886040",
     "domains": [
       "behaviour"
