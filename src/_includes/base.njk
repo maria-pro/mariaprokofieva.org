@@ -79,7 +79,9 @@
           "{{ site.links.orcid }}",
           "{{ site.links.github }}",
           "{{ site.links.linkedin }}",
-          "{{ site.links.vu }}"
+          "{{ site.links.vu }}",
+          "{{ site.links.boardfinancelab }}",
+          "{{ site.links.youtube }}"
         ]
       }{% if page.url == '/about/' %},
       {
@@ -121,6 +123,8 @@
         <li><a href="{{ site.links.github }}" rel="me">GitHub</a></li>
         <li><a href="{{ site.links.linkedin }}" rel="me">LinkedIn</a></li>
         <li><a href="{{ site.links.vu }}" rel="me">University profile</a></li>
+        <li><a href="{{ site.links.boardfinancelab }}" rel="me">Board Finance Lab</a></li>
+        <li><a href="{{ site.links.youtube }}" rel="me">YouTube</a></li>
       </ul>
       <p class="colophon__fine">© {{ buildDate.getFullYear() }} {{ site.name }}. No tracking, no cookies.</p>
     </div>
