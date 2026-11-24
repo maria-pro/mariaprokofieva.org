@@ -126,6 +126,22 @@
     "summary": "Agentic AI that runs on a CPU: LangGraph agents research public companies from SEC filings, a fact-checker traces every number to its source, and a two-hour hands-on lab comes with it."
   },
   {
+    "id": "auasb-audit-evidence-risk-response-submission",
+    "title": "Submission to the AUASB on the IAASB Audit Evidence and Risk Response exposure drafts (proposed ISA 500 (Revised), ISA 330 and ISA 520)",
+    "year": 2026,
+    "date": "2026-11-15",
+    "type": "submission",
+    "venue": "Zenodo",
+    "authors": "Prokofieva",
+    "lead": true,
+    "doi": "10.5281/zenodo.24243041",
+    "domains": [
+      "contract"
+    ],
+    "featured": true,
+    "summary": "Comments for the AUASB's response to the IAASB on when auditors can rely on a technological tool for a specific risk: three points, each tested in controlled experiments, with suggested application material."
+  },
+  {
     "id": "online-safety-digital-duty-of-care-submission",
     "title": "Submission on the Exposure Draft of the Online Safety Amendment (Digital Duty of Care) Bill 2026",
     "year": 2026,
